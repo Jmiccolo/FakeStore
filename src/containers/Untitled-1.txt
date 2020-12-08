@@ -1,0 +1,11 @@
+def func():
+    def try():
+        return "from try"
+    def catch():
+        return "from catch"
+    def finally():
+        return "from finally"
+    def tryCatch():
+        try()
+        if(throw):
+            catch();

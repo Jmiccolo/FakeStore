@@ -1,0 +1,21 @@
+body {
+    margin:0;
+    padding:0;    
+}
+.autocomplete{
+    position: relative;
+}
+.search-item {
+    position: relative;
+    width: 175px;
+    height: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 5;
+    border: solid 1px black;
+    background: white;
+}
+.search-item:hover{
+    background-color: grey;
+}
